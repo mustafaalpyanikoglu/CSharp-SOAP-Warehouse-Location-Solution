@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E2909DBE-BBA9-40CB-A80A-25085F909BEF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "myApp", "myApp", "{DA1F65F8-CF16-481B-8D52-343FABF169D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocationOptimizationService", "src\myApp\LocationOptimizationService\LocationOptimizationService.csproj", "{4867E056-3C1C-4653-8745-23B9B10AA662}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4867E056-3C1C-4653-8745-23B9B10AA662}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4867E056-3C1C-4653-8745-23B9B10AA662}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4867E056-3C1C-4653-8745-23B9B10AA662}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4867E056-3C1C-4653-8745-23B9B10AA662}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DA1F65F8-CF16-481B-8D52-343FABF169D2} = {E2909DBE-BBA9-40CB-A80A-25085F909BEF}
+		{4867E056-3C1C-4653-8745-23B9B10AA662} = {DA1F65F8-CF16-481B-8D52-343FABF169D2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {04A25011-9256-4742-BBD5-8E5E702F8CF7}
+	EndGlobalSection
+EndGlobal
